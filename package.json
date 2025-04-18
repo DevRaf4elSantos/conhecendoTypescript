@@ -1,0 +1,15 @@
+{
+  "name": "typescript",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "built/index.js",
+  "scripts": {
+    "built" : "tsc",
+    "dev" : "tsx src/index.js", 
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
