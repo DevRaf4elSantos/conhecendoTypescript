@@ -5,9 +5,4 @@ function criarObjeto(m, mc, km, placa) {
     carro = { modelo: m, marcar: mc, placa: placa, quilometragem: km };
     console.log(carro);
 }
-// Arrays
-let alunos = [
-    'Andersom Silva', 'Felipe Delta', "Fenando Presunto"
-];
-console.log(alunos);
 export {};
