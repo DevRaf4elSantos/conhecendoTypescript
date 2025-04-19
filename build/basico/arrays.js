@@ -29,4 +29,7 @@ function acharPipoca(ali) {
     }
 }
 frutas.filter((fruta) => acharPipoca(fruta));
+// Sprad Operator (no sentido de juntar)
+let novaListaComida = [...frutas, '🥐', '🥨', '🥯', '🍞', '🥓', '🥖', '🫓'];
+console.log(novaListaComida);
 export {};

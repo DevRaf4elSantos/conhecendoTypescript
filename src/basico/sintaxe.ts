@@ -12,8 +12,4 @@ function criarObjeto(m : string, mc : string , km : number, placa : string){
     console.log(carro)
 }
 
-// Arrays
-let alunos : String[] = [
-    'Andersom Silva', 'Felipe Delta', "Fenando Presunto"
-]
-console.log(alunos)
+
