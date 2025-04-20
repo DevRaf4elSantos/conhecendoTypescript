@@ -32,4 +32,9 @@ frutas.filter((fruta) => acharPipoca(fruta));
 // Sprad Operator (no sentido de juntar)
 let novaListaComida = [...frutas, '🥐', '🥨', '🥯', '🍞', '🥓', '🥖', '🫓'];
 console.log(novaListaComida);
+novaListaComida.push('🍖', '🍗', '🥩', '🍠', '🍘');
+novaListaComida.pop();
+novaListaComida.forEach(element => {
+    console.log(element);
+});
 export {};
