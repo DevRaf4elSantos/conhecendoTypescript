@@ -39,3 +39,10 @@ frutas.filter((fruta : string) => acharPipoca(fruta))
 let novaListaComida : string[] = [...frutas, '🥐', '🥨', '🥯', '🍞', '🥓', '🥖', '🫓']
 console.log(novaListaComida);
 
+novaListaComida.push('🍖', '🍗', '🥩', '🍠', '🍘')
+
+novaListaComida.pop()
+
+novaListaComida.forEach(element => {
+    console.log(element)
+});
