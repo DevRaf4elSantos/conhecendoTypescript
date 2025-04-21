@@ -7,7 +7,7 @@
         "target": "ESNext",
         "module": "NodeNext",
         "moduleResolution": "nodenext",
-
+        "removeComments": true,       
         "rootDir": "src",
         "outDir": "build"
     },

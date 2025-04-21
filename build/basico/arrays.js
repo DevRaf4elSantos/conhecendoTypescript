@@ -1,13 +1,10 @@
-// Arrays
 let alunos = [
     'Andersom Silva', 'Felipe Delta', "Fenando Presunto"
 ];
 console.log(alunos);
-// Estrutura com a declaração próxima a do java
 let frutas = [
     '🍕', '🍟', '🌭', '🍿', '🍳'
 ];
-// Imprimindo com for of
 for (const f of frutas) {
     console.log(`${f} - é bom `);
 }
@@ -29,7 +26,6 @@ function acharPipoca(ali) {
     }
 }
 frutas.filter((fruta) => acharPipoca(fruta));
-// Sprad Operator (no sentido de juntar)
 let novaListaComida = [...frutas, '🥐', '🥨', '🥯', '🍞', '🥓', '🥖', '🫓'];
 console.log(novaListaComida);
 novaListaComida.push('🍖', '🍗', '🥩', '🍠', '🍘');
