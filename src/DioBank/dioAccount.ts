@@ -25,6 +25,10 @@ export abstract class DioAccount {
         }
     }
 
+    getStatus = ():boolean =>{
+        return this.status;
+    }
+
     private validationAccount = () => {
         if(this.status != false ){
             return this.status;
