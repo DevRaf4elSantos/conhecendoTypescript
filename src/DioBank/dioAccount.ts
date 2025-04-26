@@ -28,6 +28,10 @@ export abstract class DioAccount {
     getStatus = ():boolean =>{
         return this.status;
     }
+    
+    getNumberAccount = (): number => {
+        return this.accountNumber;
+    }
 
     private validationAccount = () => {
         if(this.status != false ){
@@ -71,6 +75,13 @@ export abstract class DioAccount {
     private errorMessage = ():void => {
         console.log('Valor digitado é inválido ou você ainda não está cadastrado');
         
-    }
-   
+    } 
+    
+    showInfo = () => {
+        console.log(`
+                Nome : ${this.name},
+                Numero da Conta : ${this.accountNumber},
+                Saldo Atual : R$${this.balance}
+            `)
+      }
 }
