@@ -10,6 +10,7 @@ export abstract class DioAccount {
     constructor(nome : string){
         this.name = nome;
         this.accountNumber = randomInt(588999982);
+        this.status = true;
     }
 
     getName = () => {
