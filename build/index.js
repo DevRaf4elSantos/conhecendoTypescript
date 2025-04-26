@@ -1,4 +1,5 @@
 import { CompanyAccount } from "./DioBank/CompanyAccount.js";
+import { MoreTenAccount } from "./DioBank/MoreTenAccount.js";
 import { PeopleAccount } from "./DioBank/PeopleAccount.js";
 const contaUsuario = new PeopleAccount(2, 'Diogo Ferandes');
 contaUsuario.deposit(1000);
@@ -9,3 +10,8 @@ contaFuncionario.deposit(8559);
 contaFuncionario.withdraw(2368);
 contaFuncionario.getLoan(1000);
 contaFuncionario.showInfo();
+const contaDepositoMaisDez = new MoreTenAccount('Chrisse Tiro Certo');
+contaDepositoMaisDez.deposit(250);
+contaDepositoMaisDez.withdraw(60);
+contaDepositoMaisDez.deposit(90);
+contaDepositoMaisDez.showInfo();
